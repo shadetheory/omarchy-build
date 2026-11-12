@@ -27,7 +27,7 @@ Installing the plugin does not start the daemon. Start the daemon yourself when 
 Omarchy clones this repo and leaves the plugin disabled until you enable it. Read the tree first. Plugins run as unsandboxed code inside `omarchy-shell`. The installer only clones files. It does not run helpers or sudo.
 
 ```bash
-omarchy plugin add https://github.com/jordanpartridge/omarchy-build.git
+omarchy plugin add https://github.com/shadetheory/omarchy-build.git
 omarchy plugin enable jordan.build
 ```
 
