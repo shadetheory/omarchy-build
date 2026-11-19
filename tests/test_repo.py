@@ -52,7 +52,7 @@ class RepoTest(unittest.TestCase):
         ):
             self.assertIn(heading, readme)
         self.assertIn(
-            "omarchy plugin add https://github.com/jordanpartridge/omarchy-build.git",
+            "omarchy plugin add https://github.com/shadetheory/omarchy-build.git",
             readme,
         )
         self.assertIn("omarchy plugin enable jordan.build", readme)
